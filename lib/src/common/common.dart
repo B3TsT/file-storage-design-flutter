@@ -1,0 +1,9 @@
+export 'color/colors.dart';
+export 'component/search_project.component.dart';
+export 'component/notification_project.component.dart';
+export 'component/recently_updated.widget.dart';
+export 'component/floating_action_button.component.dart';
+export 'component/bottom_navigation_bar.component.dart';
+export 'component/dashboard_navigation/dashboard.component.dart';
+export 'strings/project_list.strings.dart';
+export 'routes/strings.router.dart';

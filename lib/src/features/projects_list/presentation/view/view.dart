@@ -1,0 +1,1 @@
+export 'storage_information.view.dart';
