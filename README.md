@@ -2,11 +2,7 @@
 
 A new Flutter project.
 
-<img src="assets/images/6.5_blue.jpg" height="550">
-<img src="assets/images/6.5_blue1.jpg" height="550">
-<img src="assets/images/6.5_green.jpg" height="550">
-<img src="assets/images/6.5_green1.jpg" height="550">
-
+<img src="assets/images/6.5_blue.jpg" height="420"> <img src="assets/images/6.5_blue1.jpg" height="420"> <img src="assets/images/6.5_green.jpg" height="420"> <img src="assets/images/6.5_green1.jpg" height="420">
 
 ## Getting Started
 
