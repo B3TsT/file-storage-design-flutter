@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../features/projects_list/presentation/widget/widget.dart';
 import '../common.dart';
+import 'projecto_list.component.dart';
 
 class RecentlyUpdatedComponent extends StatelessWidget {
   const RecentlyUpdatedComponent({super.key});
@@ -42,29 +43,7 @@ class RecentlyUpdatedComponent extends StatelessWidget {
             ],
           ),
           const Divider(height: 60),
-          SectionDividerWidget(
-            title: StringsProjectDetails.projects,
-            buttonLabel: StringsProjectDetails.createNew,
-            textStyle: textTheme.titleMedium,
-            padding: 0,
-          ),
-          const SizedBox(height: 20),
-          CardProjectWidget(
-            label: StringsProjectDetails.chatbox,
-            onPressed: () {},
-          ),
-          CardProjectWidget(
-            label: StringsProjectDetails.timeNote,
-            onPressed: () {},
-          ),
-          CardProjectWidget(
-            label: StringsProjectDetails.something,
-            onPressed: () {},
-          ),
-          CardProjectWidget(
-            label: StringsProjectDetails.other,
-            onPressed: () {},
-          ),
+          const ProjectListComponent(),
         ],
       ),
     );

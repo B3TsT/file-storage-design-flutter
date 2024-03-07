@@ -3,6 +3,7 @@ import 'package:go_router/go_router.dart';
 import 'package:myapp/src/common/common.dart';
 
 import 'core/core.dart';
+import 'features/project_details/presentation/page/team_folder_details.page.dart';
 import 'features/projects_list/projects_list.dart';
 
 
